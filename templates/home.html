@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width,
+initial-scale=1.12">
+<title>Home</title>
+
+<link rel="stylesheet" 
+href="{{ url_for('static', filename='css/style.css')}}">
+</head>
+
+<body>
+<!--HEADER-->
+<header>
+    <div class="logo"></div>
+    <nav></nav>
+</header>
+
+<!--HERO-->
+<section class="hero">
+    <div class="Collection-container">
+    <div class="hero-content">
+        <h1>Luxury is our identity</h1>
+        <p>Discover Our Beautiful Perfumes from diferent world parts like Arabia, Europe and Asia together with
+            with stylish hair and rasta collection at Bello Fiore Collection centre in 
+            Kariakoo Dar-es-Salaam Tanzania.
+        </p>
+        <a href="products.html" class="btn">
+            EXPLORE NOW
+    </a>
+    </div>
+    </div>
+</section>
+
+<!--introduction-->
+<section class="intro">
+    <h2>Welcome to Us Lovely Area  Bello Fiore Collection </h2>
+    <p>Your destination for beautiful perfumes and fashionable hair products.</p>
+    <p>Loocated in Dar es Salaam</p>
+</section>
+
+<!--COLLECTION-->
+<section class="collections">
+    <h2>Our Perfumes</h2>
+
+    <div class="collection-card">
+                <h3>Luxury Perfumes</h3>
+        <p>Discover your favorite fragrances.</p>
+        <img src="static/images/perfumes/IMG_20261020_090939_322.png"
+        alt="Perfume Collection">
+</div>
+
+<div class="collection-card">
+     <h3>Luxury Perfume</h3>
+        <p>Discover your favorite fragrances</p>
+    <img src="static/images/perfumes/IMG_20261020_090950_983.png"
+        alt="Perfume">
+</div>
+
+<div class="collection-card">
+             <h3>Hairs</h3>
+         <p>Explore different styles and colours</p>
+    <img src="static/images/rasta/IMG_20261020_090915_600.png"
+         alt="hair">
+</div>
+</section>
+
+<!--CONTACT-->
+<section class="contact">
+    <h2>Welcome to contact and communicate with us</h2>
+    <p>Feel good to communicate with us</p>
+    <a href="https://wa.me/255755877867" class="btn">
+        CHAT WITH US
+    </a>
+</section>
+
+<!--footer-->
+<footer>
+    <p>PHONE:+255 755 877 867</p>
+    <P>Instagram:@bellofiore_collection</P>
+</footer>
+<script src="{{ url_for('static',
+filename='js/script.js')}}"></script>
+</body>
+</html>
